@@ -1,0 +1,107 @@
+.mg-b-30 {
+    margin-bottom: 30px;
+}
+
+.shop-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.shop-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.shop-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.shop-item:hover .info {
+    background-color: #E0F2FF;
+}
+.shop-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.shop-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #20A1FF;
+}
+
+.shop-item .info .rating
+{
+    color: #777;
+}
+
+.shop-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.shop-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.shop-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.shop-item .separator p i
+{
+    margin-right: 5px;
+}
+.shop-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.shop-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.shop-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}

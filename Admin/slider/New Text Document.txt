@@ -1,0 +1,20 @@
+<div id="wowslider-container12">
+                                <div class="ws_images"><ul>
+                                        <?php
+                                        $view_slider = mysql_query("SELECT * FROM slider ORDER BY slider_id DESC LIMIT 10");
+                                        while ($fetch_slider = mysql_fetch_array($view_slider)) {
+                                            ?>
+                                        <li><img src="Admin/slider/<?php echo $fetch_slider['slider_image']; ?>" alt="Mens Shoe" id="wows1_0"/></li>
+                                        <?php } ?>
+                                        <!--<li><img src="data12/images/mens_shoe.jpg" alt="Mens Shoe" title="Mens Shoe" id="wows12_1"/></li>
+                                        <li><img src="data12/images/watch_for_female.jpg" alt="Watch For Female" title="Watch For Female" id="wows12_2"/></li>
+                                        <li><a href="http://wowslider.com"><img src="data12/images/kids.jpg" alt="http://wowslider.com/" title="Kids" id="wows12_3"/></a></li>
+                                        <li><img src="data12/images/pant.jpg" alt="Pant" title="Pant" id="wows12_4"/></li>
+                                    ---></ul></div>
+                                <div class="ws_bullets"><div>
+                                        <a href="#" title="<?php echo $fetch_slider['slider_title']; ?>"><span><img src="<?php echo $view_slider['slider_image']; ?>" alt="Shirt For Man"/>1</span></a>
+                                        
+                                    </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+                                <div class="ws_shadow"></div>
+                            </div>	
+                        </div>
